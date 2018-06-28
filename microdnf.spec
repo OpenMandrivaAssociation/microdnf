@@ -26,7 +26,7 @@ uses libhif and hence doesn't require Python.
 %meson_build
 
 %install
-%meson_instal
+%meson_install
 
 %files
 %{_bindir}/%{name}
