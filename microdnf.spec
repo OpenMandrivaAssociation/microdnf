@@ -12,6 +12,7 @@ BuildRequires:	pkgconfig(gobject-2.0)
 BuildRequires:	pkgconfig(libpeas-1.0)
 BuildRequires:	pkgconfig(libdnf)
 BuildRequires:	pkgconfig(smartcols)
+BuildRequires:	pkgconfig(libsolv)
 
 %description
 A minimal DNF for (mostly) Docker containers that
