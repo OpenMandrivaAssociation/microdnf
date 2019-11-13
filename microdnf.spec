@@ -7,6 +7,7 @@ Group:		Development/Other
 URL:		https://github.com/rpm-software-management/microdnf/
 Source0:	%{url}/releases/download/%{name}-%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	meson
+BuildRequires:	help2man
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gobject-2.0)
 BuildRequires:	pkgconfig(libpeas-1.0)
