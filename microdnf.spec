@@ -11,7 +11,7 @@ BuildRequires:	help2man
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gobject-2.0)
 BuildRequires:	pkgconfig(libpeas-1.0)
-BuildRequires:	pkgconfig(libdnf)
+BuildRequires:	pkgconfig(libdnf) >= 0.37.2
 BuildRequires:	pkgconfig(smartcols)
 BuildRequires:	pkgconfig(libsolv)
 Requires:	gnupg
