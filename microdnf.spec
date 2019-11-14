@@ -32,3 +32,4 @@ uses libhif and hence doesn't require Python.
 
 %files
 %{_bindir}/%{name}
+%{_mandir}/man8/microdnf.8*
