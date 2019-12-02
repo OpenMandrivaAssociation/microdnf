@@ -1,6 +1,6 @@
 Summary:	Minimal C implementation of DNF
 Name:		microdnf
-Version:	3.0.2
+Version:	3.3.0
 Release:	1
 License:	GPLv2+
 Group:		Development/Other
