@@ -1,5 +1,5 @@
 # For libdnf minimal enforced dep
-%global min_ldnf_ver 0.43.1
+%global min_ldnf_ver 0.55.0
 %global ldnfsomajor 2
 
 Summary:	Lightweight implementation of DNF in C
