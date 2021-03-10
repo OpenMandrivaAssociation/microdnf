@@ -4,7 +4,7 @@
 
 Summary:	Lightweight implementation of DNF in C
 Name:		microdnf
-Version:	3.7.0
+Version:	3.7.1
 Release:	1
 License:	GPLv3+
 Group:		System/Configuration/Packaging
