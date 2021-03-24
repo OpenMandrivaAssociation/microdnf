@@ -5,7 +5,7 @@
 Summary:	Lightweight implementation of DNF in C
 Name:		microdnf
 Version:	3.7.1
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:		System/Configuration/Packaging
 URL:		https://github.com/rpm-software-management/microdnf
@@ -21,6 +21,7 @@ BuildRequires:	pkgconfig(smartcols)
 
 Requires:	%{mklibname dnf %{ldnfsomajor}} >= %{min_ldnf_ver}
 Requires:	gnupg
+Requires:	dnf-data
 
 %description
 Micro DNF is a lightweight C implementation of DNF, designed to be used
