@@ -1,11 +1,11 @@
 # For libdnf minimal enforced dep
-%global min_ldnf_ver 0.56.0
+%global min_ldnf_ver 0.62.0
 %global ldnfsomajor 2
 
 Summary:	Lightweight implementation of DNF in C
 Name:		microdnf
-Version:	3.7.1
-Release:	2
+Version:	3.8.0
+Release:	1
 License:	GPLv3+
 Group:		System/Configuration/Packaging
 URL:		https://github.com/rpm-software-management/microdnf
