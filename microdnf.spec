@@ -21,7 +21,8 @@ BuildRequires:	pkgconfig(smartcols)
 
 Requires:	%{mklibname dnf %{ldnfsomajor}} >= %{min_ldnf_ver}
 Requires:	gnupg
-Requires:	dnf-data
+# make it recommends because moved to extra repository
+Recommends:	dnf-data
 
 %description
 Micro DNF is a lightweight C implementation of DNF, designed to be used
