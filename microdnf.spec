@@ -1,10 +1,10 @@
 # For libdnf minimal enforced dep
-%global min_ldnf_ver 0.62.0
+%global libdnf_version 0.75.0
 %global ldnfsomajor 2
 
 Summary:	Lightweight implementation of DNF in C
 Name:		microdnf
-Version:	3.10.0
+Version:	3.10.1
 Release:	1
 License:	GPLv3+
 Group:		System/Configuration/Packaging
@@ -16,7 +16,7 @@ BuildRequires:	help2man
 BuildRequires:	pkgconfig(glib-2.0) >= 2.44.0
 BuildRequires:	pkgconfig(gobject-2.0) >= 2.44.0
 BuildRequires:	pkgconfig(libpeas-1.0) >= 1.20.0
-BuildRequires:	pkgconfig(libdnf) >= %{min_ldnf_ver}
+BuildRequires:	(pkgconfig(libdnf) >= %{libdnf_version} with pkgconfig(libdnf) < 5)
 BuildRequires:	pkgconfig(smartcols)
 
 Requires:	%{mklibname dnf %{ldnfsomajor}} >= %{min_ldnf_ver}
